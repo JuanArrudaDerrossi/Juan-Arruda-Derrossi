@@ -64,7 +64,7 @@ li a:hover {
   <option value="3">Tres</option>
 </select>
 
-#
+
 <div class="container col-md-6">
   <div class="card">
     <div class="car-header">
@@ -85,7 +85,8 @@ li a:hover {
           <label for="">Endereco de email</label>
           <input type="email" class="form-control" name="email" placeholder="nome@exemplo.com" [(ngModel)]="paciente.email">
         </div>
-        <button type="submit" class="btn btn-success">Cadastrar</button>
+          <button type="button" onclick="alert('Cadastrado')"> Cadastrar </button>
+        
       </form>
     </div>
   </div>
@@ -116,7 +117,7 @@ li a:hover {
           <label for="">Data da entrega</label>
           <input type="date" name="dataEntrega" class="form-control" placeholder="dd/mm/yyyy" [(ngModel)]="exame.dataEntrega">
         </div>
-        <button type="submit" class="btn btn-success">Cadastrar</button>
+       <button type="button" onclick="alert('Cadastrado')"> Cadastrar </button>
       </form>
     </div>
   </div>
@@ -143,7 +144,8 @@ li a:hover {
           <label for="">Prazo</label>
           <input type="text" class="form-control" name="prazo" placeholder="5 dias" [(ngModel)]="procedimento.prazo">
         </div>
-        <button type="submit" class="btn btn-success">Cadastrar</button>
+        <button type="button" onclick="alert('O prazo para entrega e de 5 dias')"> Cadastrar </button>
+      
       </form>
     </div>
   </div>
